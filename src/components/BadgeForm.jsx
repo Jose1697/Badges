@@ -37,7 +37,7 @@ class BadgeForm extends React.Component{
                     <div className="form-group">
                         <label>First Name</label>
                         <input 
-                            onChange={this.props.onChange} 
+                            onChange={this.props.onChange} //evento cuando detecta q se escribe en el input
                             className="form-control" 
                             type="text" 
                             name="firstName"

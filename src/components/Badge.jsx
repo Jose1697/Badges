@@ -6,8 +6,6 @@ import Gravatar from './Gravatar';
 
 class Badge extends React.Component{
 
-    
-
     render(){
         
         return(

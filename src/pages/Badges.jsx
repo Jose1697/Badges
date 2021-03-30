@@ -128,7 +128,8 @@ class Badges extends React.Component{
         }
         console.log('2/4. render');
         return(
-            <React.Fragment>
+            //React.Fragment:  Ayuda a devolver un solo hijo, evita un div inncesario
+            <React.Fragment>  
                 <div className="Badges">
                     <div className="Badges__hero">
                         <div className="Badges__container">

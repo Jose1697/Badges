@@ -7,6 +7,8 @@ import  DeleteBadgeModal  from '../components/DeleteBadgeModal';
 
 function useIncreaseCount(max){
     const [count, setCount] = React.useState(0)
+    //parecido a state y setState
+
 
     if(count > max){
         setCount(0)

@@ -25,7 +25,7 @@ class BadgeNew extends React.Component {
     handleChange = e => {
         this.setState({
             form: {
-                ...this.state.form,
+                ...this.state.form, //deja caer todos los valores que tenia el form anteriormente
                 [e.target.name]: e.target.value,
             }
         })
